@@ -14,7 +14,10 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h2 class="text-center">Kết quả bài test Thuận toán và SQL</h2>
+        <h2 class="text-center">Kết quả bài test Thuận toán</h2>
+        <p class="fst-italic mt-3">
+            Link source code : <a href="https://github.com/phamthimaituyet/intern_test" class="link-primary mt-3">https://github.com/phamthimaituyet/intern_test</a>
+        </p>
         <h3>1. Thuật toán</h3>
         <form action="" method="get">
             <div>
@@ -26,8 +29,10 @@
             <div>
                 <?php @include("bai3.php"); ?> 
             </div>
+            <div>
+                <?php @include("bai4.php"); ?>
+            </div>
         </form>
-        <?php @include("bai5.php"); ?>
     </div>
 </body>
 </html>
